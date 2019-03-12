@@ -10,10 +10,11 @@ class Dog
   end
   
   def self.all
-    @@all.map {|dog| dog_name}
+    puts @@all.map {|dog| dog.name}
   end
   
   def self.clear_all
-    @@all
+    @@all.clear
+  end
   
 end
